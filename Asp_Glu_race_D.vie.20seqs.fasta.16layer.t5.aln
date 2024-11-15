@@ -1,0 +1,134 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.508)
+
+
+seq0001         M-KIGIFDSGVGGLT------VLKAI----RNRYR--K------VDIVYLG-DTARV---
+seq0002         NKKIGVIG-TPA--T-VKSGAYQRKLEE----GG----------ADVFAKA-CPL-FA--
+seq0003         MKTIGILG-GMGPLATA---ELFRRIVI----KTP-AKRDQEH-PKVIIFN--N----PQ
+seq0868         ------LG-GMSWESTI---PYYRLINEGIKQRLG---G-L-HSAQVLLHS--VD-FHE-
+seq0903         ------LG-GMSWESTA---HYYRLLNQGINQQLG---G-L-HSAKIAMVS--VD-FQP-
+seq0123         ---IGVIDSGVGG---L---TVAKEI----MRQL-------PK-EQIMYIG-DTARC---
+seq0226         ---IGIFDSGVGG---L---SVYRHL----SELM-------PK-ERYVYYA-DTQNL---
+seq0227         ---R---------------------------MVA------SDR-IGVYVSR--IHYA---
+seq0261         ---IGVFDSGLGG---I---SVVRQL----HASM-------PN-ERIVYFG-DSANA---
+seq0283         ---L---G-GMGPQATI---DAMNKI----IKNTP-AHCDQEH-IPVITVS--IP-DI--
+seq0324         ---IGVIDSGVGG---L---TVAKEI----IRQL-------PK-ERIIYLG-DTARC---
+seq0397         ---IGLMDSGMGG---L---SVLKEL----LKYD-------SK-LEIVYYG-DLKNS---
+seq0405         ---L---G-GMSWESTI---GYYRAINEGIKNSLGGL---H-S-AKIVIYSVDF------
+seq0418         ---IGLFDSGVGG---L---SIMKEV----RKLL-------PE-EDLIYFA-DSAYC---
+seq0419         ---IGVIDSGVGG---L---TVLKWL----QAKL-------PH-EDFIFIG-DTART---
+seq0479         ---IAVFDSGMGG---I---SVLREM----TKLM-------PN-EDFIYYG-DSKHA---
+seq0714         ---IGVFDSGVGG---L---SVLAEI----QQRL-------PH-ESLLYVA-DCGNI---
+seq0733         ---L---G-GLGPMATV---YFYDMV----VEMTD-ARRDQDH-LDMIIMN--RA-TT--
+seq0740         ---I---G-GMGTMATE---DFVHTV----NRLTV-THRDQDY-LNYVVLN--D-AQI--
+seq0981         ---IGYFDSGVGG---L---TVVKQA----LHQL-------PN-EQIKYVG-DTARM---
+                                                                            
+
+seq0001         -P---Y------GI--RSK--DT---IIRYSLECAGFLK-D-KGVDIIVVACNT-ASAYA
+seq0002         -P---L---AEEGL----LEGEI---TRKVVEHYLKEFK-G-K-IDTLILGC-THY-PLL
+seq0003         IP--DRTAY-ILGK----G--ED---PRPQLIWTAKRLE-E-CGADFIIMPCNT-A-HAF
+seq0868         -----IEECQRRGE----W--DK---TGDILAEAALGLQ-R-AGAEGIVLCTNT-M-HKV
+seq0903         -----LEKFMHQGN----W--IE---CGKILMKSAKSIE-A-AGADFLLICTNT-M-HKL
+seq0123         -P---Y------GP--RP--SEE---VRAFTWEMTNYLI-A-KDIKMLVIACNT-ATAVV
+seq0226         -P---Y------GN--KS--GDE---ILFLTLQAVDWLC-R-QGCKLIVIACNS-ASAYS
+seq0227         -------NP----V---T--PENLLKMQPSLTEGAGLILPD-ETLDAVMYSCTS-ASVVI
+seq0261         -P---Y------GI--KT--PQE---VRDLSFKIVEHFA-S-LNVKAVVIACNT-ATSAA
+seq0283         -P--DRTQS---IINH---DD-K---PLEKMAEYLKILE-A-AQVGCIIIPCNT-AH-FW
+seq0324         -P---Y------GP--RP--IEE---IRQFTWQMIHYLQ-Q-YPLKMLVIACNT-ATAVV
+seq0397         -P---Y------GE--KE--VSK---VLELVRNVCNLLQ-K-ENVRAILLACNT-ATSAA
+seq0405         -DPIE--KL---Q--H-EGDWDG---TAEILIEAAKNVQ-S-AGADFLLICTNT-MH-KV
+seq0418         -P---Y------GI--KT--PEV---IRARCFSICDFLL-K-EGVKLIVVASNT-TSVAG
+seq0419         -P---Y------GN--RS--REE---ITRFVAEMTDWLD-K-RHIKQLVVACNT-ITVLG
+seq0479         -P---Y------GT--KT--LEE---VRTLTIEHITYLI-KEKHAKAIAVACNT-ATSAA
+seq0714         -P---Y------GE--KL--PEF---IRQRCSLVAGFFR-E-QGAKALVLACNT-ATVAA
+seq0733         -P--DRTAY--II-GS-S-DA-S---PLEYISSDAKRLE-A-AGADFLVLTCNT-AH-YF
+seq0740         -P--DRTAY---ILDHN--CT-N---PLPSLKADVRLLN-R-LGAKFIVMTCNT-AH-YF
+seq0981         -P---Y------GP--RT--SEE---LKQFAMESADFLV-G-EDIKLLVIACNT-ATAQA
+                                                     .         :     :      
+
+seq0001         -LERLKK----EI----NV-PV--FGV---IE--PGVKEA----L---KK----------
+seq0002         -KKEIKK----FL---GDA-EV--VDS---SE--ALSLSL----H---NFI---------
+seq0003         -VEDIRK----AI----KI-PI--ISM---IE--ETAKKV----K---E-----------
+seq0868         -ADATGR----AITGAG-MTRVALLGTRYTMEQDFYRGRL----T---E-----------
+seq0903         -APIVAE----AV----SI-PL--LHI---AD--ATAMAI----K---AQD---------
+seq0123         -LDEIQE----QL----DI-PV--IGV---IE--PGSRAA----L---KVT---KNHKIG
+seq0226         -LTTLRI----RC----RI-PI--VGL----V--PAVKPA----C---EMS---QTRQIA
+seq0227         GDRDIEAAIHLSK---PGV-PV--VTP---TA---A---A----VRGLKAF---GARRIS
+seq0261         -VKDLRA----HY----NM-PI--IGM----E--PALKLA----C---DLG-GGKPQRVI
+seq0283         -FNQLQQ----RT----QT-KM--ISI---IE------SAVHFIQ---DS----QIAEVC
+seq0324         -LDEVRA----KL----DI-PV--LGV---VH--PGARAA----L---KAT---KNGHIG
+seq0397         -AQTLRQ----EF----SI-PI--FGM----E--PAIKPA----I---LQN---PGKKVA
+seq0405         -APQIEK----AI----DI-PL--LHI---AD------AT----A---EVLVKNGIKTVG
+seq0418         -LDLIRK----HY----RI-PI--VGV----E--PAIKPA----A---ELS---RNGKIG
+seq0419         -LDVIKG----NH----PF-DV--IGM---A---KGSRMV----P---GVT---KNNRVG
+seq0479         -VRILRD----MY---PDL-PL--VGV----E--PAIKPA----V---LAC---EHAKVI
+seq0714         -VADLRR----DY---PDW-PI--IGM----E--PAVKPA----A---AAT---RSGVVG
+seq0733         -YKDIVE----GL----GV-PL--INM---IE--ETVVHA----K---KQ----GHRKIG
+seq0740         -IPALTA----IT----NV-PI--LNM---PA--LAVEAA----C---QLQ-QPRPLRIG
+seq0981         -LPMLQE----KL----DI-PV--VGV---IH--PGIQAA----L---EAT---ADNKIG
+                                     :  .                                   
+
+seq0001         ------------------------------------------------------------
+seq0002         ------------------------------------------------------------
+seq0003         ------------------------------------------------------------
+seq0868         ------------------------------------------------------------
+seq0903         ------------------------------------------------------------
+seq0123         VIGTNGTVKSQA---YTHALRAL-H-T-RVEVENLA-CP------LFVPLV------ESG
+seq0226         LLATQATLQGQL---LAQVIHEV-ATSKGVTVHKHF-EP------MLVPW-V-----ESG
+seq0227         VLTPYTI---ETSRPVADYFDDL-----GFMID-RFTCL------G---L-SDDREMAR-
+seq0261         VAATPLTLRERK---FAELMNRF-T-Q-NHKIFSRP-CP------DLVEI-V-----ENG
+seq0283         ILATSATISTQL---YQSQFIQN-----NIRFST----PSVEMQHKVMQSI---YQYKAG
+seq0324         VIGTVGTVRSKA---YEKALQSI-N-P-RVHVESLA-CP------KFVPLV------ESG
+seq0397         LLATPVTQREEK---LQKLKSEL-N-A-EELILPVS-CP------GLAGL-V-----DQG
+seq0405         LLGTAFTMEQDF---YKSRLSEN-Y---GLTVLV----PNEIDRAIIHNVIY--KELCLG
+seq0418         ILATGVTINGER---FSSLVERF-G-S-NIEVFTQP-CP------GLVELV------EEG
+seq0419         FFATDFTVSTGA---HKREIQRI-C-P-EIQVFGQG-CP------KFVPLI------EGE
+seq0479         VMATPMTLREEK---FHKLE-SIYD-K-QADIYPLP-CP------GLMEFV------EQG
+seq0714         VLATTGTLQSAK---FAALLDRF-A-T-DIKVITRP-CP------GLVERI------EAG
+seq0733         ILATTGNIRTGL---YQDMCVAQ-----SMDYYV----PTQQVQDMVMDIIY--NQVKAG
+seq0740         ILATTGTLKSQL---YQQLIRSN-----GHMPVV----PTEQQQAQVMALIY--EDIKQH
+seq0981         VIATEGTVNSNA---YYNGLLAI-Q-P-HVTVAQLA-TP------ELVQI-A-----EHK
+                                                                            
+
+seq0001         ------------------------------------------------------------
+seq0002         ------------------------------------------------------------
+seq0003         ------------------------------------------------------------
+seq0868         ------------------------------------------------------------
+seq0903         ------------------------------------------------------------
+seq0123         N-YEG-PEAQRIVKETLKPFY-HTDMDTLILGCTHYPL--L-KPVIQ-EA-IGP---RVQ
+seq0226         M-PIN-HHVADLLIKQTQAWY-QQGVDILVLGCTHYPF--F-RQFLQ-DW-IDEQHITMT
+seq0227         --IA-PDEIAA----FAREAL-APQSDALFISCTALRAAQV-AARIEAET--G-----KP
+seq0261         D-LGNKNIVMSALHKYFDSYD-LTNIDSVVLGCTHFVF--Y-KSYFR-EF-LPD---CVN
+seq0283         N----IEKSKQLMSEVIHFYR-QNKSIKFLLACTEIPL--ILQDSIQ-D---NP---E-L
+seq0324         D-FEG-EKALAIVAESLAPLR-PRPIDVLILGCTHYPL--L-APLIR-EY-MGK---KVK
+seq0397         N----FDEAEKYLRPILKDLQ-QQNVDNLVLGCTHYVF--L-KQIIL-KN--FP---NLK
+seq0405         K-M-L-PASKVEYLRIIESLA-NQGAEAVILGCTEIGM--L-VE--QAD----T---KVT
+seq0418         K-LDC-PQTEALLHRYMDPML-VHGSDTIVLGCTHYPF--L-RSLVE-KI-AGP---QIT
+seq0419         K-FGS-PELKAAIHEYADKLR-EHNVDTVLLSCTHYPF--V-RKEIE-EE-FGP---EVT
+seq0479         I-LSG-EKLENFLHNLLDPYK-DKDITGIVLGCTHYPF--L-KDTIQ-KI-VGP---SVT
+seq0714         D-LHS-PALRQLLQGYVEPLL-AAGCDTIILGCTHYPF--L-KPLLK-SM-IPQ---DIS
+seq0733         KKA-DMDQ----FNKIIEVLK-AEGCDCAILGCTELSI--I-KK----DEKLPN----DF
+seq0740         DYV-DRVKFHGL----IDQLLNAADCDAVILGCTELSV--A-QDA--VPY--GS---E-R
+seq0981         D-LNA-VETHNQIKEVVAPLV-NSGIDTLVMGCTHFPL--M-ADSLQ-RI-FGD---DVT
+                                                                            
+
+seq0001         -----------SR
+seq0002         -----------K-
+seq0003         -----------LG
+seq0868         -------------
+seq0903         ----------IRT
+seq0123         LISSGEETAIE-V
+seq0226         LLDSGAAIAQR-V
+seq0227         VVTSNLATAWACL
+seq0261         IVDGNDGTIHH-L
+seq0283         FVDATDLLIKNAI
+seq0324         LICSGDETAREVS
+seq0397         IYDGNSGTIKHLL
+seq0405         LLDTAAIHAQKAV
+seq0418         VIDTGEAVARQVS
+seq0419         ILDPAERTTQDAL
+seq0479         IFDGGYGTAKELL
+seq0714         LIDTGAAVARQ-L
+seq0733         FVDSSEVLAMTTI
+seq0740         VIDAQYELARVTV
+seq0981         LVDAGAEAVNT-V
+                             
