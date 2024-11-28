@@ -1,0 +1,113 @@
+3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:39:03) 
+[GCC 11.3.0]
+CUDA available? True
+This is a t5 model
+load tokenizer
+load_model:model_path /n/fs/ragr-research/users/rl6004/project-551/prot_t5_xl_half_uniref50-enc
+Hello
+T5 model
+tokenizer loaded
+Some weights of the model checkpoint at /n/fs/ragr-research/users/rl6004/project-551/prot_t5_xl_half_uniref50-enc were not used when initializing T5EncoderModel: ['decoder.block.23.layer.1.EncDecAttention.v.weight', 'decoder.block.15.layer.2.DenseReluDense.wo.weight', 'decoder.block.18.layer.1.EncDecAttention.v.weight', 'decoder.block.3.layer.0.SelfAttention.o.weight', 'decoder.block.9.layer.1.EncDecAttention.k.weight', 'decoder.block.11.layer.2.DenseReluDense.wo.weight', 'decoder.block.16.layer.0.SelfAttention.k.weight', 'decoder.block.18.layer.1.EncDecAttention.q.weight', 'decoder.block.14.layer.1.layer_norm.weight', 'decoder.block.12.layer.1.EncDecAttention.o.weight', 'decoder.block.15.layer.0.SelfAttention.q.weight', 'decoder.block.7.layer.0.SelfAttention.o.weight', 'decoder.block.16.layer.0.SelfAttention.o.weight', 'decoder.block.6.layer.1.EncDecAttention.k.weight', 'decoder.block.19.layer.1.EncDecAttention.o.weight', 'decoder.block.7.layer.1.EncDecAttention.o.weight', 'decoder.block.13.layer.1.layer_norm.weight', 'decoder.block.13.layer.0.SelfAttention.k.weight', 'decoder.block.19.layer.1.EncDecAttention.q.weight', 'decoder.block.12.layer.0.layer_norm.weight', 'decoder.block.8.layer.0.SelfAttention.o.weight', 'decoder.block.2.layer.2.DenseReluDense.wi.weight', 'decoder.block.5.layer.1.EncDecAttention.v.weight', 'decoder.block.6.layer.1.EncDecAttention.o.weight', 'decoder.block.22.layer.1.EncDecAttention.v.weight', 'decoder.block.7.layer.0.SelfAttention.v.weight', 'decoder.block.6.layer.0.SelfAttention.q.weight', 'decoder.block.6.layer.2.layer_norm.weight', 'decoder.block.19.layer.0.SelfAttention.q.weight', 'decoder.block.3.layer.0.SelfAttention.v.weight', 'decoder.block.2.layer.1.EncDecAttention.o.weight', 'decoder.block.17.layer.2.DenseReluDense.wi.weight', 'decoder.block.5.layer.2.DenseReluDense.wo.weight', 'decoder.block.6.layer.1.EncDecAttention.v.weight', 'decoder.block.23.layer.0.SelfAttention.q.weight', 'decoder.block.18.layer.0.layer_norm.weight', 'decoder.block.0.layer.0.SelfAttention.o.weight', 'decoder.block.11.layer.1.EncDecAttention.k.weight', 'decoder.block.21.layer.0.SelfAttention.k.weight', 'decoder.block.4.layer.1.EncDecAttention.v.weight', 'decoder.block.3.layer.0.layer_norm.weight', 'decoder.block.15.layer.2.layer_norm.weight', 'decoder.block.22.layer.1.layer_norm.weight', 'decoder.block.9.layer.0.SelfAttention.k.weight', 'decoder.block.6.layer.0.layer_norm.weight', 'decoder.block.0.layer.1.EncDecAttention.q.weight', 'decoder.block.18.layer.2.DenseReluDense.wo.weight', 'decoder.block.20.layer.0.layer_norm.weight', 'decoder.block.3.layer.1.EncDecAttention.q.weight', 'decoder.block.21.layer.1.layer_norm.weight', 'decoder.block.11.layer.0.SelfAttention.o.weight', 'decoder.block.3.layer.1.EncDecAttention.v.weight', 'decoder.block.9.layer.0.SelfAttention.o.weight', 'decoder.block.4.layer.1.layer_norm.weight', 'decoder.block.2.layer.0.SelfAttention.k.weight', 'decoder.block.13.layer.0.SelfAttention.o.weight', 'decoder.block.19.layer.0.layer_norm.weight', 'decoder.block.4.layer.1.EncDecAttention.o.weight', 'decoder.block.2.layer.1.EncDecAttention.v.weight', 'decoder.block.20.layer.1.EncDecAttention.o.weight', 'decoder.block.1.layer.2.DenseReluDense.wo.weight', 'decoder.block.17.layer.0.SelfAttention.k.weight', 'decoder.block.17.layer.0.SelfAttention.o.weight', 'decoder.block.9.layer.0.SelfAttention.q.weight', 'decoder.block.0.layer.0.SelfAttention.q.weight', 'decoder.block.14.layer.1.EncDecAttention.q.weight', 'decoder.block.22.layer.1.EncDecAttention.o.weight', 'decoder.block.0.layer.1.EncDecAttention.k.weight', 'decoder.block.8.layer.0.SelfAttention.k.weight', 'decoder.block.19.layer.2.layer_norm.weight', 'decoder.block.0.layer.0.SelfAttention.relative_attention_bias.weight', 'decoder.block.0.layer.0.layer_norm.weight', 'decoder.block.22.layer.0.layer_norm.weight', 'decoder.block.7.layer.0.layer_norm.weight', 'decoder.block.12.layer.2.DenseReluDense.wo.weight', 'decoder.block.19.layer.1.EncDecAttention.k.weight', 'decoder.block.12.layer.1.layer_norm.weight', 'decoder.block.1.layer.1.layer_norm.weight', 'decoder.block.17.layer.1.layer_norm.weight', 'decoder.block.23.layer.2.DenseReluDense.wo.weight', 'decoder.block.14.layer.0.SelfAttention.v.weight', 'decoder.block.20.layer.2.layer_norm.weight', 'decoder.block.5.layer.0.SelfAttention.q.weight', 'decoder.block.11.layer.2.DenseReluDense.wi.weight', 'decoder.block.9.layer.1.EncDecAttention.o.weight', 'decoder.block.7.layer.1.EncDecAttention.v.weight', 'decoder.block.23.layer.0.SelfAttention.k.weight', 'decoder.block.15.layer.0.SelfAttention.v.weight', 'decoder.block.12.layer.1.EncDecAttention.q.weight', 'decoder.block.2.layer.2.layer_norm.weight', 'decoder.block.21.layer.2.layer_norm.weight', 'decoder.block.9.layer.1.layer_norm.weight', 'decoder.block.22.layer.2.layer_norm.weight', 'decoder.block.13.layer.1.EncDecAttention.q.weight', 'decoder.block.7.layer.0.SelfAttention.k.weight', 'decoder.block.11.layer.2.layer_norm.weight', 'decoder.block.14.layer.2.layer_norm.weight', 'decoder.block.2.layer.1.EncDecAttention.q.weight', 'decoder.block.7.layer.1.layer_norm.weight', 'decoder.block.9.layer.0.SelfAttention.v.weight', 'decoder.block.0.layer.1.layer_norm.weight', 'decoder.block.20.layer.1.EncDecAttention.k.weight', 'decoder.block.0.layer.0.SelfAttention.k.weight', 'decoder.block.2.layer.0.SelfAttention.v.weight', 'decoder.block.5.layer.0.SelfAttention.v.weight', 'decoder.block.9.layer.2.DenseReluDense.wo.weight', 'decoder.block.5.layer.1.layer_norm.weight', 'decoder.block.7.layer.2.layer_norm.weight', 'decoder.block.20.layer.2.DenseReluDense.wi.weight', 'decoder.block.6.layer.0.SelfAttention.o.weight', 'decoder.block.19.layer.2.DenseReluDense.wo.weight', 'decoder.block.20.layer.0.SelfAttention.o.weight', 'decoder.block.5.layer.2.layer_norm.weight', 'decoder.block.9.layer.1.EncDecAttention.q.weight', 'decoder.block.21.layer.1.EncDecAttention.o.weight', 'decoder.block.22.layer.1.EncDecAttention.k.weight', 'decoder.block.11.layer.0.SelfAttention.q.weight', 'decoder.block.21.layer.0.SelfAttention.q.weight', 'decoder.block.5.layer.1.EncDecAttention.q.weight', 'decoder.block.11.layer.0.layer_norm.weight', 'decoder.block.19.layer.1.EncDecAttention.v.weight', 'decoder.block.2.layer.0.layer_norm.weight', 'decoder.block.17.layer.0.SelfAttention.q.weight', 'decoder.block.11.layer.1.EncDecAttention.v.weight', 'decoder.block.8.layer.0.SelfAttention.v.weight', 'decoder.block.19.layer.0.SelfAttention.v.weight', 'decoder.block.4.layer.0.layer_norm.weight', 'decoder.final_layer_norm.weight', 'decoder.block.5.layer.2.DenseReluDense.wi.weight', 'decoder.block.17.layer.1.EncDecAttention.k.weight', 'decoder.block.8.layer.2.layer_norm.weight', 'decoder.block.20.layer.1.layer_norm.weight', 'decoder.block.14.layer.2.DenseReluDense.wi.weight', 'decoder.block.7.layer.2.DenseReluDense.wo.weight', 'decoder.block.10.layer.1.EncDecAttention.o.weight', 'decoder.block.13.layer.1.EncDecAttention.o.weight', 'decoder.block.18.layer.2.DenseReluDense.wi.weight', 'decoder.block.1.layer.0.SelfAttention.q.weight', 'decoder.block.14.layer.1.EncDecAttention.o.weight', 'decoder.block.8.layer.2.DenseReluDense.wi.weight', 'decoder.block.9.layer.0.layer_norm.weight', 'decoder.block.15.layer.0.SelfAttention.o.weight', 'decoder.block.1.layer.2.layer_norm.weight', 'decoder.block.17.layer.0.layer_norm.weight', 'decoder.block.8.layer.0.SelfAttention.q.weight', 'decoder.block.19.layer.1.layer_norm.weight', 'decoder.block.1.layer.0.SelfAttention.k.weight', 'decoder.block.17.layer.0.SelfAttention.v.weight', 'decoder.block.23.layer.0.SelfAttention.v.weight', 'decoder.block.14.layer.0.SelfAttention.q.weight', 'decoder.block.0.layer.2.layer_norm.weight', 'decoder.block.22.layer.2.DenseReluDense.wo.weight', 'decoder.block.15.layer.0.layer_norm.weight', 'decoder.block.18.layer.1.EncDecAttention.o.weight', 'decoder.block.13.layer.2.DenseReluDense.wo.weight', 'decoder.block.3.layer.1.EncDecAttention.o.weight', 'decoder.block.14.layer.0.SelfAttention.o.weight', 'decoder.block.2.layer.1.EncDecAttention.k.weight', 'decoder.block.23.layer.1.EncDecAttention.k.weight', 'decoder.block.10.layer.0.layer_norm.weight', 'decoder.block.20.layer.0.SelfAttention.k.weight', 'decoder.block.1.layer.0.SelfAttention.o.weight', 'decoder.block.21.layer.2.DenseReluDense.wo.weight', 'decoder.block.8.layer.1.EncDecAttention.q.weight', 'decoder.block.23.layer.2.DenseReluDense.wi.weight', 'decoder.block.21.layer.1.EncDecAttention.k.weight', 'decoder.block.22.layer.0.SelfAttention.v.weight', 'decoder.block.7.layer.2.DenseReluDense.wi.weight', 'decoder.block.1.layer.0.SelfAttention.v.weight', 'decoder.block.22.layer.0.SelfAttention.k.weight', 'decoder.block.2.layer.0.SelfAttention.q.weight', 'decoder.block.16.layer.2.DenseReluDense.wi.weight', 'decoder.block.2.layer.1.layer_norm.weight', 'decoder.block.10.layer.2.layer_norm.weight', 'decoder.block.18.layer.1.layer_norm.weight', 'decoder.block.21.layer.0.SelfAttention.v.weight', 'decoder.block.16.layer.0.SelfAttention.q.weight', 'decoder.block.16.layer.0.layer_norm.weight', 'decoder.block.8.layer.1.EncDecAttention.v.weight', 'decoder.block.7.layer.1.EncDecAttention.k.weight', 'decoder.block.3.layer.1.EncDecAttention.k.weight', 'decoder.block.4.layer.2.DenseReluDense.wi.weight', 'decoder.block.14.layer.1.EncDecAttention.v.weight', 'decoder.block.23.layer.0.layer_norm.weight', 'decoder.block.21.layer.1.EncDecAttention.q.weight', 'decoder.block.5.layer.1.EncDecAttention.k.weight', 'decoder.block.12.layer.1.EncDecAttention.k.weight', 'decoder.block.22.layer.0.SelfAttention.q.weight', 'decoder.block.23.layer.1.EncDecAttention.o.weight', 'decoder.block.14.layer.1.EncDecAttention.k.weight', 'decoder.block.22.layer.1.EncDecAttention.q.weight', 'decoder.block.3.layer.0.SelfAttention.q.weight', 'decoder.block.16.layer.1.EncDecAttention.v.weight', 'decoder.block.13.layer.0.layer_norm.weight', 'decoder.block.12.layer.2.layer_norm.weight', 'decoder.block.10.layer.0.SelfAttention.q.weight', 'decoder.block.0.layer.2.DenseReluDense.wo.weight', 'decoder.block.11.layer.1.layer_norm.weight', 'decoder.block.23.layer.1.layer_norm.weight', 'decoder.block.1.layer.1.EncDecAttention.q.weight', 'decoder.block.6.layer.0.SelfAttention.v.weight', 'decoder.block.5.layer.0.SelfAttention.o.weight', 'decoder.block.8.layer.1.EncDecAttention.k.weight', 'decoder.block.16.layer.1.EncDecAttention.q.weight', 'decoder.block.15.layer.1.EncDecAttention.q.weight', 'decoder.block.20.layer.1.EncDecAttention.v.weight', 'decoder.block.10.layer.0.SelfAttention.v.weight', 'decoder.block.15.layer.1.EncDecAttention.k.weight', 'decoder.block.6.layer.1.EncDecAttention.q.weight', 'decoder.block.13.layer.1.EncDecAttention.k.weight', 'decoder.block.4.layer.1.EncDecAttention.k.weight', 'decoder.block.17.layer.2.layer_norm.weight', 'decoder.block.0.layer.2.DenseReluDense.wi.weight', 'decoder.block.10.layer.2.DenseReluDense.wi.weight', 'decoder.block.19.layer.0.SelfAttention.k.weight', 'decoder.block.19.layer.2.DenseReluDense.wi.weight', 'decoder.block.21.layer.2.DenseReluDense.wi.weight', 'decoder.block.3.layer.2.DenseReluDense.wi.weight', 'decoder.block.4.layer.2.layer_norm.weight', 'decoder.block.10.layer.1.layer_norm.weight', 'decoder.block.1.layer.1.EncDecAttention.k.weight', 'decoder.block.6.layer.0.SelfAttention.k.weight', 'decoder.block.21.layer.1.EncDecAttention.v.weight', 'decoder.block.11.layer.0.SelfAttention.k.weight', 'decoder.block.4.layer.0.SelfAttention.k.weight', 'decoder.block.20.layer.0.SelfAttention.q.weight', 'decoder.block.4.layer.1.EncDecAttention.q.weight', 'decoder.block.1.layer.1.EncDecAttention.o.weight', 'decoder.block.18.layer.0.SelfAttention.q.weight', 'decoder.block.23.layer.0.SelfAttention.o.weight', 'decoder.block.21.layer.0.layer_norm.weight', 'decoder.block.12.layer.1.EncDecAttention.v.weight', 'decoder.block.13.layer.2.DenseReluDense.wi.weight', 'decoder.block.22.layer.2.DenseReluDense.wi.weight', 'decoder.block.11.layer.0.SelfAttention.v.weight', 'decoder.block.20.layer.0.SelfAttention.v.weight', 'decoder.block.16.layer.0.SelfAttention.v.weight', 'decoder.block.16.layer.1.EncDecAttention.k.weight', 'decoder.block.8.layer.1.layer_norm.weight', 'decoder.block.10.layer.1.EncDecAttention.q.weight', 'decoder.block.4.layer.0.SelfAttention.v.weight', 'decoder.block.6.layer.1.layer_norm.weight', 'decoder.block.8.layer.2.DenseReluDense.wo.weight', 'decoder.block.18.layer.0.SelfAttention.v.weight', 'decoder.block.15.layer.1.layer_norm.weight', 'decoder.block.13.layer.0.SelfAttention.q.weight', 'decoder.block.11.layer.1.EncDecAttention.o.weight', 'decoder.block.6.layer.2.DenseReluDense.wi.weight', 'decoder.block.18.layer.0.SelfAttention.k.weight', 'decoder.block.17.layer.1.EncDecAttention.o.weight', 'decoder.block.20.layer.2.DenseReluDense.wo.weight', 'decoder.block.2.layer.0.SelfAttention.o.weight', 'decoder.block.11.layer.1.EncDecAttention.q.weight', 'decoder.embed_tokens.weight', 'decoder.block.10.layer.0.SelfAttention.k.weight', 'decoder.block.5.layer.0.SelfAttention.k.weight', 'decoder.block.20.layer.1.EncDecAttention.q.weight', 'decoder.block.14.layer.0.layer_norm.weight', 'decoder.block.23.layer.1.EncDecAttention.q.weight', 'decoder.block.1.layer.0.layer_norm.weight', 'decoder.block.13.layer.1.EncDecAttention.v.weight', 'decoder.block.4.layer.0.SelfAttention.o.weight', 'decoder.block.19.layer.0.SelfAttention.o.weight', 'decoder.block.3.layer.1.layer_norm.weight', 'decoder.block.23.layer.2.layer_norm.weight', 'decoder.block.18.layer.2.layer_norm.weight', 'decoder.block.3.layer.2.DenseReluDense.wo.weight', 'decoder.block.0.layer.0.SelfAttention.v.weight', 'decoder.block.7.layer.0.SelfAttention.q.weight', 'decoder.block.4.layer.0.SelfAttention.q.weight', 'decoder.block.8.layer.0.layer_norm.weight', 'decoder.block.9.layer.2.DenseReluDense.wi.weight', 'decoder.block.15.layer.1.EncDecAttention.v.weight', 'decoder.block.16.layer.2.layer_norm.weight', 'decoder.block.13.layer.2.layer_norm.weight', 'decoder.block.10.layer.1.EncDecAttention.k.weight', 'decoder.block.5.layer.0.layer_norm.weight', 'decoder.block.14.layer.0.SelfAttention.k.weight', 'decoder.block.10.layer.0.SelfAttention.o.weight', 'decoder.block.3.layer.2.layer_norm.weight', 'decoder.block.10.layer.1.EncDecAttention.v.weight', 'decoder.block.12.layer.0.SelfAttention.k.weight', 'decoder.block.12.layer.2.DenseReluDense.wi.weight', 'decoder.block.8.layer.1.EncDecAttention.o.weight', 'decoder.block.14.layer.2.DenseReluDense.wo.weight', 'decoder.block.12.layer.0.SelfAttention.q.weight', 'decoder.block.17.layer.1.EncDecAttention.q.weight', 'decoder.block.13.layer.0.SelfAttention.v.weight', 'decoder.block.17.layer.2.DenseReluDense.wo.weight', 'decoder.block.15.layer.2.DenseReluDense.wi.weight', 'decoder.block.18.layer.1.EncDecAttention.k.weight', 'decoder.block.10.layer.2.DenseReluDense.wo.weight', 'decoder.block.16.layer.2.DenseReluDense.wo.weight', 'decoder.block.0.layer.1.EncDecAttention.o.weight', 'decoder.block.5.layer.1.EncDecAttention.o.weight', 'decoder.block.3.layer.0.SelfAttention.k.weight', 'decoder.block.16.layer.1.EncDecAttention.o.weight', 'decoder.block.1.layer.1.EncDecAttention.v.weight', 'decoder.block.21.layer.0.SelfAttention.o.weight', 'decoder.block.22.layer.0.SelfAttention.o.weight', 'decoder.block.9.layer.2.layer_norm.weight', 'decoder.block.16.layer.1.layer_norm.weight', 'decoder.block.12.layer.0.SelfAttention.v.weight', 'decoder.block.0.layer.1.EncDecAttention.v.weight', 'decoder.block.17.layer.1.EncDecAttention.v.weight', 'decoder.block.2.layer.2.DenseReluDense.wo.weight', 'decoder.block.1.layer.2.DenseReluDense.wi.weight', 'decoder.block.15.layer.0.SelfAttention.k.weight', 'decoder.block.15.layer.1.EncDecAttention.o.weight', 'decoder.block.4.layer.2.DenseReluDense.wo.weight', 'decoder.block.9.layer.1.EncDecAttention.v.weight', 'decoder.block.6.layer.2.DenseReluDense.wo.weight', 'decoder.block.18.layer.0.SelfAttention.o.weight', 'decoder.block.12.layer.0.SelfAttention.o.weight', 'decoder.block.7.layer.1.EncDecAttention.q.weight']
+- This IS expected if you are initializing T5EncoderModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing T5EncoderModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+model_loaded
+This is a t5 model
+Model loaded
+device cuda
+device_ids [0]
+padding 0
+maxlen 34
+embed_time =  0.21798348426818848
+torch.Size([1, 31, 16384])
+aa_time =  0.0010671615600585938
+aa_shape torch.Size([1, 30, 16384])
+4
+((0, 0), (0, 4), (0, 0))
+30
+34
+seq time =  0.22432827949523926
+embed_time =  0.04047560691833496
+torch.Size([1, 30, 16384])
+aa_time =  0.00012755393981933594
+aa_shape torch.Size([1, 29, 16384])
+5
+((0, 0), (0, 5), (0, 0))
+29
+34
+seq time =  0.044158220291137695
+embed_time =  0.03728175163269043
+torch.Size([1, 35, 16384])
+aa_time =  0.00014352798461914062
+aa_shape torch.Size([1, 34, 16384])
+0
+((0, 0), (0, 0), (0, 0))
+34
+34
+seq time =  0.041201114654541016
+embed_time =  0.03686714172363281
+torch.Size([1, 20, 16384])
+aa_time =  0.00015401840209960938
+aa_shape torch.Size([1, 19, 16384])
+15
+((0, 0), (0, 15), (0, 0))
+19
+34
+seq time =  0.039923906326293945
+embed_time =  0.03702974319458008
+torch.Size([1, 24, 16384])
+aa_time =  0.00012421607971191406
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.0417020320892334
+embed_time =  0.036725759506225586
+torch.Size([1, 24, 16384])
+aa_time =  0.00011706352233886719
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.041190385818481445
+embed_time =  0.036650657653808594
+torch.Size([1, 24, 16384])
+aa_time =  0.00014019012451171875
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.041159868240356445
+embed_time =  0.0366673469543457
+torch.Size([1, 24, 16384])
+aa_time =  0.00011444091796875
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.04112529754638672
+embed_time =  0.03658175468444824
+torch.Size([1, 24, 16384])
+aa_time =  0.0001373291015625
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.041059255599975586
+embed_time =  0.03677058219909668
+torch.Size([1, 24, 16384])
+aa_time =  0.00012946128845214844
+aa_shape torch.Size([1, 23, 16384])
+11
+((0, 0), (0, 11), (0, 0))
+23
+34
+seq time =  0.041257619857788086
+Total time to embed = 0.6254289150238037
+Returning all embeddings
+/n/fs/ragr-research/users/rl6004/project-551/vcmsa_env/lib/python3.9/site-packages/vcmsa/vcmsa_utils.py:4403: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  plt.figure()
