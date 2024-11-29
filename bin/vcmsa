@@ -50,6 +50,9 @@ def get_align_args():
     
     parser.add_argument("-e", "--emb", dest = "embedding_path", type = str, required = False,
                         help="Path to embeddings")
+    
+    parser.add_argument("--ext_seq_emb", dest = "ext_seq_emb", type = str, required = False,
+                        help="External sequence embedding")
 
     parser.add_argument("-eo", "--embed_only", dest = "embed_only", action='store_true',
                         help="If flagged, stop after saving embeddings (requires --emb_outfile)")
@@ -138,10 +141,13 @@ def get_align_args():
 
     return(args)
 
-
+def parse_ext_seq_emb(ext_seq_emb: str):
+    # TODO
+    pass
  
 #@profile
-def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outfile_name, record_dir, seqsim_thresh = 0.75, pca_plot = False):
+def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outfile_name, record_dir, 
+                   seqsim_thresh = 0.75, pca_plot = False, ext_seq_emb = None):
     aa_embeddings = embedding_dict['aa_embeddings'] # this is numseqs x padded_seqlen x embedding_dim
     padded_seqlen = aa_embeddings.shape[1]
 
@@ -155,17 +161,19 @@ def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outf
        png_hidden_out = "{}/{}.initial.prebatch.png".format(record_dir, outfile_name)
        do_pca_plot(hidden_states, index_to_aa, png_hidden_out, seq_to_length = seq_to_length)
     
-
-    sequence_embedding_list = []
-    aa_embedding_list = []
-    for i in range(len(seqs_aas)):
-          seq_indices = seqnum_to_index[i]
-          seq_i_aa_embeddings = np.take(hidden_states, seq_indices, axis = 0)
-          aa_embedding_list.append(seq_i_aa_embeddings)
-          #ic(seq_i_aa_embeddings.shape)
-          seq_i_seq_embedding = np.mean(seq_i_aa_embeddings, axis = 0)
-          #ic(seq_i_seq_embedding.shape)
-          sequence_embedding_list.append(seq_i_seq_embedding)
+    if ext_seq_emb != None:
+        sequence_embedding_list = parse_ext_seq_emb(ext_seq_emb)
+    else:
+        sequence_embedding_list = []
+        aa_embedding_list = []
+        for i in range(len(seqs_aas)):
+            seq_indices = seqnum_to_index[i]
+            seq_i_aa_embeddings = np.take(hidden_states, seq_indices, axis = 0)
+            aa_embedding_list.append(seq_i_aa_embeddings)
+            #ic(seq_i_aa_embeddings.shape)
+            seq_i_seq_embedding = np.mean(seq_i_aa_embeddings, axis = 0)
+            #ic(seq_i_seq_embedding.shape)
+            sequence_embedding_list.append(seq_i_seq_embedding)
 
     sequence_array = np.array(sequence_embedding_list, dtype="float32")
     numseqs = len(seqs)
@@ -943,9 +951,33 @@ if __name__ == '__main__':
             #print("Quiting after saving embedding at {}".format(emb_outfile))
             exit(0)
 
+    # external input for third-party sequence embedding
+    ext_seq_emb = args.ext_seq_emb
     # The sequences are divided into groups
     #ic(seqsim_thresh)
-    cluster_seqnums_list, cluster_seqs_list,  cluster_names_list, cluster_hstates_list, to_exclude = get_seq_groups(seqs ,seq_names, embedding_dict,  exclude, do_clustering, outfile_name, record_dir, seqsim_thresh = seqsim_thresh, pca_plot = pca_plot )
+    cluster_seqnums_list, cluster_seqs_list,  cluster_names_list, cluster_hstates_list, to_exclude = get_seq_groups(
+        seqs, seq_names, embedding_dict, exclude, do_clustering, outfile_name, record_dir, 
+        seqsim_thresh = seqsim_thresh, pca_plot = pca_plot, ext_seq_emb = ext_seq_emb)
+
+
+    # DEBUG only
+    print("SAVE DEBUG files")
+    outdir = outfile[:str.rindex(outfile, "/")]
+    with open(f"{outdir}/cluster_seqnums_list", "rb") as fOut:
+        pickle.dump(cluster_seqnums_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_seqs_list", "rb") as fOut:
+        pickle.dump(cluster_seqs_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_names_list", "rb") as fOut:
+        pickle.dump(cluster_names_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_hstates_list", "rb") as fOut:
+        pickle.dump(cluster_hstates_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
 
     aln_fasta_list = []
     excluded_records = []
