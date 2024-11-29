@@ -76,7 +76,9 @@ def display_matrix_midpoint(midpoints: list, seq_ids: list, seq_sz: np.ndarray, 
 """
 display an alignment separate by all midpoint columns
 """
-def disp_matrix_mps(midpoints_mm: list, seq_ids: list, seq_sz: np.ndarray, seqs: list):
+def disp_matrix_mps(midpoints_mm: list, seq_ids: list, 
+                    seq_sz: np.ndarray, seqs: list, gap='-'):
+    num_seqs = len(seqs)
     name_mw = max(len(seq_id) for seq_id in seq_ids)
     left = np.zeros(len(seqs))
     shifts = []
@@ -84,20 +86,22 @@ def disp_matrix_mps(midpoints_mm: list, seq_ids: list, seq_sz: np.ndarray, seqs:
         right = np.array(midpoints_mm[i])
         shifts.append(int(np.max(right - left)))
         left = right
-    for i in range(len(seqs)):
-        cid = 0
+    display = []
+    max_alen = 0
+    for i in range(num_seqs):
         left_mid = 0
+        right_mid = 0
         seq_a = []
         for j, s in enumerate(shifts):
             right_mid = midpoints_mm[j][i]
-            seq = list(seqs[i][left_mid:right_mid])
-            if j > 0:
-                seq[0] = f"{colors[cid]}{seq[0]}{RESET}"
-                cid = (cid + 1) % num_colors
-            seq_s = ''.join(seq + [' '] * (s - len(seq)))
-            seq_a.append(seq_s)
+            seq = seqs[i][left_mid:right_mid]
+            seq_a.extend([f"{cld[a]}{a}{RESET}" for a in list(seq)])
+            seq_a.extend([gap] * (s - len(seq)))
             left_mid = right_mid
-        # print(seq_a)
-        # print(seqs[i])
-        # print()
-        print(f"{seq_ids[i]:>{name_mw}}\t" + ''.join(seq_a))
+        seq_a.extend([f"{cld[a]}{a}{RESET}" for a in list(seqs[i][right_mid:])])
+        max_alen = max(max_alen, len(seq_a))
+        display.append(seq_a)
+
+    for i in range(num_seqs):
+        disp_i = display[i] + [gap] * (max_alen - len(display[i]))
+        print(f"{seq_ids[i]:>{name_mw}}\t" + ''.join(disp_i))
