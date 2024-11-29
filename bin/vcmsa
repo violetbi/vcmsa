@@ -947,6 +947,26 @@ if __name__ == '__main__':
     #ic(seqsim_thresh)
     cluster_seqnums_list, cluster_seqs_list,  cluster_names_list, cluster_hstates_list, to_exclude = get_seq_groups(seqs ,seq_names, embedding_dict,  exclude, do_clustering, outfile_name, record_dir, seqsim_thresh = seqsim_thresh, pca_plot = pca_plot )
 
+    # DEBUG only
+    print("SAVE DEBUG files")
+    outdir = outfile[:str.rindex(outfile, "/")]
+    with open(f"{outdir}/cluster_seqnums_list", "rb") as fOut:
+        pickle.dump(cluster_seqnums_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_seqs_list", "rb") as fOut:
+        pickle.dump(cluster_seqs_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_names_list", "rb") as fOut:
+        pickle.dump(cluster_names_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+    with open(f"{outdir}/cluster_hstates_list", "rb") as fOut:
+        pickle.dump(cluster_hstates_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+        fOut.close()
+    
+            
     aln_fasta_list = []
     excluded_records = []
     for excluded_seqnum in to_exclude:
