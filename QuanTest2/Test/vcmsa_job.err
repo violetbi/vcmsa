@@ -1,0 +1,49 @@
+/var/spool/slurmd/job6947311/slurm_script: line 20: activate: No such file or directory
+Traceback (most recent call last):
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 239, in hf_raise_for_status
+    response.raise_for_status()
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/prot_t5_xl_uniref50/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/transformers/utils/hub.py", line 409, in cached_file
+    resolved_file = hf_hub_download(
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 124, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1065, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 124, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1374, in get_hf_file_metadata
+    hf_raise_for_status(r)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 268, in hf_raise_for_status
+    raise RepositoryNotFoundError(message, response) from e
+huggingface_hub.utils._errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-674a8fd7-1a3d7f033654581c3bd00248)
+
+Repository Not Found for url: https://huggingface.co/prot_t5_xl_uniref50/resolve/main/config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If the repo is private, make sure you are authenticated.
+Invalid username or password.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/bin/vcmsa", line 928, in <module>
+    embedding_dict = get_embeddings(seqs_spaced,
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/vcmsa/vcmsa_embed.py", line 390, in get_embeddings
+    model, tokenizer, model_config = load_model(model_path, return_config = True, half = half)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/vcmsa/vcmsa_embed.py", line 309, in load_model
+    model_config = AutoConfig.from_pretrained(model_path)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/transformers/models/auto/configuration_auto.py", line 776, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/transformers/configuration_utils.py", line 559, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/transformers/configuration_utils.py", line 614, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/Genomics/argo/users/xb4719/.conda/envs/vcmsa_env/lib/python3.9/site-packages/transformers/utils/hub.py", line 424, in cached_file
+    raise EnvironmentError(
+OSError: prot_t5_xl_uniref50 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.
