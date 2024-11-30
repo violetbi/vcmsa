@@ -1,0 +1,3 @@
+UniProt_ID,Location,Family_raw,Family,Sub_family,CATH_Domain,PDB_Code,Chain,UniProt_Name,UniProt_Start,UniProt_End,Class,Architecture,Topology,Homologous_superfamily,S35,S60,S95,S100_cluster,S00_count,Domain_length,Resolution
+Q9UBU9,Cytoplasm,NXF family,NXF family,,1oaiA00,1oai,A,NXF1_HUMAN,561,619,1,10,8,10,1,1,1,1,1,59,1.0
+Q9UBU9,Cytoplasm,NXF family,NXF family,,1go5A00,1go5,A,NXF1_HUMAN,551,619,1,10,8,10,1,1,1,1,2,69,999.0
