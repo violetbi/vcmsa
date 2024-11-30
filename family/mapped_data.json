@@ -1,0 +1,24 @@
+{
+    "Q9UBU9": {
+        "Location": "Cytoplasm",
+        "Family_raw": "NXF family",
+        "Family": "NXF family",
+        "Sub_family": "",
+        "PDB_Codes": [
+            {
+                "PDB_Code": "1oai",
+                "Chain": "A",
+                "UniProt_Name": "NXF1_HUMAN",
+                "UniProt_Start": 561,
+                "UniProt_End": 619
+            },
+            {
+                "PDB_Code": "1go5",
+                "Chain": "A",
+                "UniProt_Name": "NXF1_HUMAN",
+                "UniProt_Start": 551,
+                "UniProt_End": 619
+            }
+        ]
+    }
+}
