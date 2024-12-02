@@ -148,7 +148,9 @@ def parse_ext_seq_emb(ext_seq_emb: str):
         fd.close()
     seq_embs = []
     for seq in seq_embs_raw:
-        sa = list(seq.values())[0]
+        sa: np.ndarray = list(seq.values())[0]
+        s = sa.shape[0] * sa.shape[1]
+        sa = sa.reshape((s,))
         seq_embs.append(sa)
     print(f"load {len(seq_embs)} embeddings [external]")
     return seq_embs
