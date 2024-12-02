@@ -173,7 +173,10 @@ def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outf
         print(f"LOADING external embedding from {ext_seq_emb}")
         sequence_embedding_list = parse_ext_seq_emb(ext_seq_emb)
         print(type(seq_names), seq_names)
+        for i, seq_emb in enumerate(sequence_embedding_list):
+            print(seq_names[i], i, seq_emb.shape, type(seq_emb))
     else:
+        print(f"NATIVE mean pooling!")
         sequence_embedding_list = []
         aa_embedding_list = []
         for i in range(len(seqs_aas)):
@@ -184,6 +187,7 @@ def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outf
             seq_i_seq_embedding = np.mean(seq_i_aa_embeddings, axis = 0)
             #ic(seq_i_seq_embedding.shape)
             sequence_embedding_list.append(seq_i_seq_embedding)
+            print(seq_names[i], i, seq_i_seq_embedding.shape, type(seq_i_seq_embedding))
 
     sequence_array = np.array(sequence_embedding_list, dtype="float32")
     numseqs = len(seqs)
