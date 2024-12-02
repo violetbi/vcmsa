@@ -142,9 +142,17 @@ def get_align_args():
     return(args)
 
 def parse_ext_seq_emb(ext_seq_emb: str):
-    # TODO
-    pass
- 
+    seq_embs_raw = None
+    with open(ext_seq_emb, "rb") as fd:
+        seq_embs_raw: list = pickle.load(fd)
+        fd.close()
+    seq_embs = []
+    for seq in seq_embs_raw:
+        sa = list(seq.values())[0]
+        seq_embs.append(sa)
+    print(f"load {len(seq_embs)} embeddings [external]")
+    return seq_embs
+    
 #@profile
 def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outfile_name, record_dir, 
                    seqsim_thresh = 0.75, pca_plot = False, ext_seq_emb = None):
@@ -162,7 +170,9 @@ def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outf
        do_pca_plot(hidden_states, index_to_aa, png_hidden_out, seq_to_length = seq_to_length)
     
     if ext_seq_emb != None:
+        print(f"LOADING external embedding from {ext_seq_emb}")
         sequence_embedding_list = parse_ext_seq_emb(ext_seq_emb)
+        print(type(seq_names), seq_names)
     else:
         sequence_embedding_list = []
         aa_embedding_list = []
