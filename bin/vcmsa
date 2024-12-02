@@ -977,19 +977,19 @@ if __name__ == '__main__':
     # DEBUG only
     print("SAVE DEBUG files")
     outdir = outfile[:str.rindex(outfile, "/")]
-    with open(f"{outdir}/cluster_seqnums_list", "rb") as fOut:
+    with open(f"{outdir}/cluster_seqnums_list", "wb") as fOut:
         pickle.dump(cluster_seqnums_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         fOut.close()
     
-    with open(f"{outdir}/cluster_seqs_list", "rb") as fOut:
+    with open(f"{outdir}/cluster_seqs_list", "wb") as fOut:
         pickle.dump(cluster_seqs_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         fOut.close()
     
-    with open(f"{outdir}/cluster_names_list", "rb") as fOut:
+    with open(f"{outdir}/cluster_names_list", "wb") as fOut:
         pickle.dump(cluster_names_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         fOut.close()
     
-    with open(f"{outdir}/cluster_hstates_list", "rb") as fOut:
+    with open(f"{outdir}/cluster_hstates_list", "wb") as fOut:
         pickle.dump(cluster_hstates_list, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         fOut.close()
 
