@@ -1,0 +1,88 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+seq0001                             YKMGY---------------WDG-DY-VPKDTDL-LALFRITPQDGVDPV
+seq0002                             S----AAGYKAGVKDYKLTYYTP-DY-TPKDTDL-LAAFRFSPQPGVPAD
+seq0003                             D---QSS------R-YVNLALKEEDLIAGGE-HVLC-AYIMKPKAGYGYV
+seq0020                             G---Y---------------WDP-DY-AVKDTDI-LALFRCTPQPGVDPV
+seq0023                             P-----------------------EY-VVKDTDX-LALFRVSPQPGVDPI
+seq0072                             T---Y---------------WEP-HY-IPKESDF-LAVFKITPQPGVPRE
+seq0104                             -----------------------------------LAAFRVTPQPGVPPE
+seq0281                             V----------------------------------------------DPV
+seq0294                             G---Y---------------WDA-AY-NVKETDV-LALFRITPQPGVDPV
+seq0301                             V---V---------------------------------------------
+seq0396                             T------------------YYTP-XY-VVKDTDI-LAAFRMTPQPGVPPE
+seq0491                             I----------------------------------TLTYRIETS--GSIE
+seq0582                             G---Y---------------WEP-EY-VIKETDI-LALFRVSPQPGVDPI
+seq0617                             T------------------YYTP-DY-ETKDTDI-LAAFRVTPQPGVPPE
+seq0621                             T------------------YYTP-QY-QVKATDI-LAAFRMTPQAGVPAE
+seq0661                             T------------------YYTP-DY-ETKETDI-LAAFRMTPQPGVPPE
+seq0670                             T------------------YYTP-DY-VTKDTDI-LAAFRMTPQPGVPPE
+seq0767                             T------------------YYTP-EY-ETKDTDI-LAAFRVTPQPGVPPE
+seq0880                             Y---Y-----------V----DK-GYESSKKRDI-IAVFRITPAEGYTIE
+seq0891                             S---L-----------R----EE-DLIA-GGKHIL-VAYKMKPKAGYDYL
+
+seq0001                             E-AAAAVAGESSTATWTV-VW--T--DRLTA-CDMY--R--A-KAYR-VD
+seq0002                             E-AGAAIAAESSTGTW-TTVW--T--DLL-TDM--D--RYKG-KCYH-IE
+seq0003                             ATA-AHFAAE------------------S-S----TGTR--GVDALVYE-
+seq0020                             E-AGAAIAGESSTATWTV-VW--T--DLL-TACDLY--R--A-KAYR-VD
+seq0023                             E-ASAAVAGESSTATWTV-VW--T--DLLTA-CDLY--R--A-KAYK-VD
+seq0072                             E-AAAAVAAESSTGTW-TTVW--T--DLL-TDLEYY--K--G-RAYA-LE
+seq0104                             E-AGAAVAAESSTGTW-TTVW--T--DGLTS-L--D--RYKG-RCYH-IE
+seq0281                             E-ASAAVAGESSTATWTV-VW--T--DLLTA-CDLY--R--A-KAYK-VD
+seq0294                             E-AAAAVAGESSTATWTV-VW--T--DLLTA-CDLY--R--A-KSYR-VD
+seq0301                             --------------------W--T--DLLPA-CDLY--R--A-KAYR-VD
+seq0396                             E-CGAAVAAESSTGTW-TTVW--T--DGLTT-L--D--RYKG-RCYD-IE
+seq0491                             R-LAAKIASDQSTG-T-FVALP-GETEEL-K-----A-RVAA-RVLA-IR
+seq0582                             E-AAAAVAGESSTATWTV-VW--T--DLLTA-CDLY--R--A-KAYK-VD
+seq0617                             E-AGAAVAAESSTGTW-TTVW--T--DGL-TSL--D--RYKG-RCYH-IE
+seq0621                             E-AGAAVAAESSTGTW-TTVW--T--DGLTS-L--D--RYKG-RCYD-IE
+seq0661                             E-AGAAVAAESSTGTW-TTVW--T--DGLTS-L--D--RYKG-RCYD-LE
+seq0670                             E-AGAAVAAESSTGTW-TTVW--T--DGLTS-L--D--RYKG-RCYD-IE
+seq0767                             E-AGAAVAAESSTGTW-TTVW--T--DGL-TNL--D--RYKG-RCYH-ID
+seq0880                             Q-AAGGVAAESSTGTW-TTLYPWYE-EE--R-WA-DL-S--A-KAYD-FH
+seq0891                             P-AAAHFAAESSTGTN-VEV-S-TTDDF--TRG-VD-----A-L--VYQ-
+
+seq0001                             ----P-VPN-N------PEQFFCYVAYDLSL-FEE---GSI--A-N-LT-
+seq0002                             ----P-VAG-E------ENSYFAFIAYPLDL-FEE---GSV--T-N-IL-
+seq0003                             -----VD---E-A----RE--LTKIAYPVALFDRNITDGKAM-IASFLT-
+seq0020                             ----P-VPS-S------PDTYFVYIAYDLDL-FEE---GSL--A-N-LT-
+seq0023                             ----A-VPN-T------SDQYFAFIAYDLDL-FEE---GSI--A-N-LT-
+seq0072                             ----D-VPG-D------DEAFYAFIAYPMGL-FEE---GSV--V-N-VF-
+seq0104                             -----P--------------------------------------------
+seq0281                             ----A-VPN-S------SEQYFAYIAYDIDL-FEE---GSI--A-N-LT-
+seq0294                             ----P-VPG-T------TDQYFAYIAYQIEL-FEE---GSL--A-N-LT-
+seq0301                             ----P-VPN-V------ADQYFAYIAYDIDL-FEE---GSI--A-N-LT-
+seq0396                             ----P-VPG-E------DNQYIAYVPYPIDL-FEE---GSV--T-N-LF-
+seq0491                             HLPDALRPSIPEAGNGPFKRADVDIAFPFDAIGHDL---SALMT------
+seq0582                             ----A-VPN-T------SDQYFAYISYDIDL-FEE---GSI--A-N-LT-
+seq0617                             ----P-VPG-E------ENQYIAYVAYPLDL-FEE---GSV--T-N-MF-
+seq0621                             ----P-VRG-E------ENQYIAYVAYPLDL-FEE---GSV--T-N-LF-
+seq0661                             ----P-VPG-E------ENQYIAYIAYPLDL-FEE---GSV--T-N-LF-
+seq0670                             ----P-VAG-E------DNQYIAYVAYPLDL-FEE---GSV--T-N-MF-
+seq0767                             ----P-VPG-E------EDQYIAYVAYPLDL-FEE---GSV--T-N-MF-
+seq0880                             ----D-M---G------DGSWIVKIAYPFHA-FEEA---NL--P-G-LL-
+seq0891                             -----ID---E-A----SEE--MRIAYPLELFDRNVTDGRMMIV-S-FLT
+
+seq0001                             ---A-SII-G-NVFSFKP-IKA---ARL-E-DMRFPVAYV--KT
+seq0002                             ---T-SIV-G-NVFGFKA-IRS---LRL-E-DIRFPVALV--KT
+seq0003                             LT-MGN-NQGMGDVE----Y-A----KM-H-DFYVPEAYR--AL
+seq0020                             ---A-SII-G-NVFGFKA-VKA---LRL-E-DMRFP---V--AL
+seq0023                             ---A-SII-G-NVFGFKA-VKA---LRL-E-DMRIP---V--AY
+seq0072                             ---T-SLV-G-NVFGFKA-VRA---LRL-E-DVRFP---L--WF
+seq0104                             ----------------------------XX----X---XXXXXX
+seq0281                             ---A-SII-G-NVFGXXXXK-A---XX-XX-XXXXP---V--AY
+seq0294                             ---A-SII-G-NVFGFKA-VKA---LRL-E-DMRIP---F--AY
+seq0301                             ---A-SII-G-NVFGFKA-VKA---LRL-E-DMRMP---V--AY
+seq0396                             ---T-SIV-G-NVFGFKA-LRA---L-XXE-DLRIP---P--AY
+seq0491                             -IAIGG-A--------YS-IKGLTGIR--VVDMKLP---E--QF
+seq0582                             ---A-SII-G-NVFGFKA-VKA---LRL-E-DMRIP---V--AY
+seq0617                             ---T-SIV-G-NVFGFKA-LRA---LRL-E-DLRIP---P--SY
+seq0621                             ---T-SIV-G-NVFGFKA-LRA---LRL-E-DLRIP---P--AY
+seq0661                             ---T-SIV-G-NVFGFKA-LRA---LRL-E-DLRIP---P--AY
+seq0670                             ---T-SIV-G-NVFGFKA-LRA---LRL-E-DLRIP---P--AY
+seq0767                             ---T-SIV-G-NVFGFKA-LRA---LRL-E-DLRIP---P--AY
+seq0880                             ---A-SIA-G-NVFGMKR-VKG---LRL-E-DLYLP---E--KI
+seq0891                             LC-IGN-NQGMGDIE-----HA----KI-Y-DFHVP---E--RA
+
+

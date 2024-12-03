@@ -1,0 +1,90 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.508)
+
+
+seq0001         Y-----------KMGYWDGDY-VPKDTDLL-ALFRITPQDGVD-PVE-AAAAVAGESSTA
+seq0002         SAAGYKAGVKDYKLTYYTPDY-TPKDTDLL-AAFRFSPQPGVP-ADE-AGAAIAAESSTG
+seq0020         G--------------YWDPDY-AVKDTDIL-ALFRCTPQPGVD-PVE-AGAAIAGESSTA
+seq0023         P------------------EY-VVKDTDXL-ALFRVSPQPGVD-PIE-ASAAVAGESSTA
+seq0072         T--------------YWEPHY-IPKESDFL-AVFKITPQPGVP-REE-AAAAVAAESSTG
+seq0104         -----------------------------L-AAFRVTPQPGVP-PEE-AGAAVAAESSTG
+seq0281         V-----------------------------------------D-PVE-ASAAVAGESSTA
+seq0294         G--------------YWDAAY-NVKETDVL-ALFRITPQPGVD-PVE-AAAAVAGESSTA
+seq0301         V-V---------------------------------------------------------
+seq0396         T--------------YYTPXY-VVKDTDIL-AAFRMTPQPGVP-PEE-CGAAVAAESSTG
+seq0582         G--------------YWEPEY-VIKETDIL-ALFRVSPQPGVD-PIE-AAAAVAGESSTA
+seq0617         T--------------YYTPDY-ETKDTDIL-AAFRVTPQPGVP-PEE-AGAAVAAESSTG
+seq0621         T--------------YYTPQY-QVKATDIL-AAFRMTPQAGVP-AEE-AGAAVAAESSTG
+seq0661         T--------------YYTPDY-ETKETDIL-AAFRMTPQPGVP-PEE-AGAAVAAESSTG
+seq0670         T--------------YYTPDY-VTKDTDIL-AAFRMTPQPGVP-PEE-AGAAVAAESSTG
+seq0767         T--------------YYTPEY-ETKDTDIL-AAFRVTPQPGVP-PEE-AGAAVAAESSTG
+seq0891         S-LR-------------EEDLIA-GGKHIL-VAYKMKPKAGYD-YLP-AAAHFAAESSTG
+seq0003         D-----QSSRYVNLALKEEDL-IAGGEHVLCA-YIMKPKAGYGYV-ATAAHF-AAESSTG
+seq0880         Y---------YVDKGY-ESSK-KRD---II-AVFRITPAEGYT-IEQ-AAGGVAAESSTG
+seq0491         ----------------------------IT-LTYRIETSGS---IER-LAAKIASDQSTG
+                                                                            
+
+seq0001         T-WT-VVW----TDRLTACDMYRAK--A--YRVDPVPN---------NPEQFF---CYVA
+seq0002         T-WT-TVW----TDLLTDMD--RYKGKC--YHIEPVAG---------EENSYF---AFIA
+seq0020         T-WT-VVW----TDLLTACDLYRAK--A--YRVDPVPS---------SPDTYF---VYIA
+seq0023         T-WT-VVW----TDLLTACDLYRAK--A--YKVDAVPN---------TSDQYF---AFIA
+seq0072         T-WT-TVW----TDLLTDLEY--YKGRA--YALEDVPG---------DDEAFY---AFIA
+seq0104         T-WT-TVW----TDGLTSLD--RYKGRC--YHIEP-------------------------
+seq0281         T-WT-VVW----TDLLTACDLYRAK--A--YKVDAVPN---------SSEQYF---AYIA
+seq0294         T-WT-VVW----TDLLTACDLYRAK--S--YRVDPVPG---------TTDQYF---AYIA
+seq0301         -------W----TDLLPACDLYRA-K-A--YRVDPVPN---------VADQYF---AYIA
+seq0396         T-WT-TVW----TDGLTTLD--RYKGRC--YDIEPVPG---------EDNQYI---AYVP
+seq0582         T-WT-VVW----TDLLTACDLYRA-K-A--YKVDAVPN---------TSDQYF---AYIS
+seq0617         T-WT-TVW----TDGLTSLD--RYKGRC--YHIEPVPG---------EENQYI---AYVA
+seq0621         T-WT-TVW----TDGLTSLD--RYKGRC--YDIEPVRG---------EENQYI---AYVA
+seq0661         T-WT-TVW----TDGLTSLD--RYKGRC--YDLEPVPG---------EENQYI---AYIA
+seq0670         T-WT-TVW----TDGLTSLD--RYKGRC--YDIEPVAG---------EDNQYI---AYVA
+seq0767         T-WT-TVW----TDGLTNLD--RYKGRC--YHIDPVPG---------EEDQYI---AYVA
+seq0891         TNVE--VS---TTD-----DFTR-GVDALVYQIDE-AS-----------EEMR-----IA
+seq0003         T-RGVDAL-VYEVDE-AR----ELT--------------------------------KIA
+seq0880         T-WT-TLYPWYE-EERWA----DLSAKA--YDFHDM-----------GDGSWI---VKIA
+seq0491         T-FV-ALP--GETEELKA----RVAARV--LAIRHLPDALRPSIPEAGNGPFKRADVDIA
+                             :                                              
+
+seq0001         YDLSLFEE------GSIA--NLT--ASI-IGNVFSFKPIKAARL-------EDMR-----
+seq0002         YPLDLFEE------GSVT--NI-LT-SI-VGNVFGFKAIRSLRL-------EDIR-----
+seq0020         YDLDLFEE------GSLA--NLT--ASI-IGNVFGFKAVKALRL-------EDMR-----
+seq0023         YDLDLFEE------GSIA--NLT--ASI-IGNVFGFKAVKALRL-------EDMR-----
+seq0072         YPMGLFEE------GSVV--NV-FT-SL-VGNVFGFKAVRALRL-------EDVR-----
+seq0104         ------------------------------------------X------XXX-----XXX
+seq0281         YDIDLFEE------GSIA--NLT--ASI-IGNVFG-------XXXXKAXXXX-----XXX
+seq0294         YQIELFEE------GSLA--NLT--ASI-IGNVFGFKAVKALRL-------EDMR-----
+seq0301         YDIDLFEE------GSIA--NLT--ASI-IGNVFGFKAVKALRL-------EDMR-----
+seq0396         YPIDLFEE------GSVT--NL-FT-SI-VGNVFGFKALRALX-------XEDLR-----
+seq0582         YDIDLFEE------GSIA--NLT--ASI-IGNVFGFKAVKALRL-------EDMR-----
+seq0617         YPLDLFEE------GSVT--NM-FT-SI-VGNVFGFKALRALRL-------EDLR-----
+seq0621         YPLDLFEE------GSVT--NL-FT-SI-VGNVFGFKALRALRL-------EDLR-----
+seq0661         YPLDLFEE------GSVT--NL-FT-SI-VGNVFGFKALRALRL-------EDLR-----
+seq0670         YPLDLFEE------GSVT--NM-FT-SI-VGNVFGFKALRALRL-------EDLR-----
+seq0767         YPLDLFEE------GSVT--NM-FT-SI-VGNVFGFKALRALRL-------EDLR-----
+seq0891         YPLELFDRNVTD--GRMM--IVSFLT-LCIGNNQGMGDI------------EHAKIYDFH
+seq0003         YPVALFDRNITDGKAM----IASFLTLT-MGNNQGMGDVEYAKM-------HDFY-----
+seq0880         YPFHAFEE------ANLPGLLAS-IAG----NVFGMKRVKGLRL-------EDLY-----
+seq0491         FPFDAIGHD-----------LSALMTIA-IGGAYSIKGLTGIRV-------VDMK-----
+                                                                            
+
+seq0001         FPVA--YVKT
+seq0002         FPVA--LVKT
+seq0020         FPV---A--L
+seq0023         IPV---A--Y
+seq0072         FPL---W--F
+seq0104         X--------X
+seq0281         XPV---A--Y
+seq0294         IPF---A--Y
+seq0301         MPV---A--Y
+seq0396         IPP---A--Y
+seq0582         IPV---A--Y
+seq0617         IPP---S--Y
+seq0621         IPP---A--Y
+seq0661         IPP---A--Y
+seq0670         IPP---A--Y
+seq0767         IPP---A--Y
+seq0891         VPE---R--A
+seq0003         VPEAYRA--L
+seq0880         LPE---K--I
+seq0491         LPE---Q--F
+                          
