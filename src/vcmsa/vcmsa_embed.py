@@ -367,7 +367,10 @@ class ListDataset(Dataset):
 
 
 
-def get_embeddings(seqs, model_path, seqlens, get_sequence_embeddings = True, get_aa_embeddings = True, padding = 5, ragged_arrays = False, aa_pcamatrix_pkl = None, sequence_pcamatrix_pkl = None, heads = None, layers = None, strat="meansig", cpu_only = False, half = False):
+def get_embeddings(seqs, model_path, seqlens, get_sequence_embeddings = True, 
+                   get_aa_embeddings = True, padding = 5, ragged_arrays = False, 
+                   aa_pcamatrix_pkl = None, sequence_pcamatrix_pkl = None, heads = None, 
+                   layers = None, strat="meansig", cpu_only = False, half = False):
     '''
     Encode sequences with a transformer model
 
