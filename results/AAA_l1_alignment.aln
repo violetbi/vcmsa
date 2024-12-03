@@ -1,0 +1,200 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.508)
+
+
+seq0001         ------EDYASYIMNGII---------------KWGDPVTRVLDDGELLVQQTKNSDRTP
+seq0002         ------------------------------------------------------------
+seq0193         ------------------------------------------------------------
+seq0291         ------------------------------------------------------------
+seq0413         ------------------------------------------------------------
+seq0437         ------------------------------------------------------------
+seq0456         ------------------------------------------------------------
+seq0539         ------------------------------------------------------------
+seq0549         ------------------------------------------------------------
+seq0767         ------------------------------------------------------------
+seq0785         ------------------------------------------------------------
+seq0870         ------------------------------------------------------------
+seq1000         ------------------------------------------------------------
+seq0003         HSEMTPREIVSELDKHIIGQDNAKRSVAIALRNRW-----RRMQLNEELRHEV-----TP
+seq0019         ------------------------------------------------------------
+seq0557         ------------------------------------------------------------
+seq0580         ------------------------------------------------------------
+seq0316         ------------------------------------------------------------
+seq0389         ------------------------------------------------------------
+seq0829         ------------------------------------------------------------
+                                                                            
+
+seq0001         LVSV--------------------------------------------------LLEGPP
+seq0002         ---REDEEESLNEVGYDDVGGCRKQLAQIKEMVELPLRHPALFKAIGVKPPRGILLYGPP
+seq0193         ---I--------------------------------------------------LLVGPP
+seq0291         ---P--------------------------------------------------ILIGEP
+seq0413         ---L--------------------------------------------------YIHGVP
+seq0437         ---P--------------------------------------------------VLIGEP
+seq0456         ---P--------------------------------------------------LLVGEA
+seq0539         ---M--------------------------------------------------CFTGNP
+seq0549         ---L--------------------------------------------------LLYGPP
+seq0767         ---P--------------------------------------------------VLIGEP
+seq0785         ---V--------------------------------------------------LLVGSP
+seq0870         ---V--------------------------------------------------ILYGPP
+seq1000         ---V--------------------------------------------------LLYGPP
+seq0003         -KNI--------------------------------------------------LMIGPT
+seq0019         ---V--------------------------------------------------ALHGPP
+seq0557         ---H--------------------------------------------------LVEGKP
+seq0580         ---L--------------------------------------------------LIYGQY
+seq0316         ---L--------------------------------------------------YISGPP
+seq0389         ---L--------------------------------------------------LLEGDA
+seq0829         ---I--------------------------------------------------LMIGPT
+                                                                       . *  
+
+seq0001         HSGKTA-----LAAKIA-------EES-N-FPFIKI---CSPDKMIGFS-----ETAKC-
+seq0002         GTGKTLI-----ARAVA-------NET-G-AFFFL----INGPEI--MS---------KL
+seq0193         GTGKTL-----LARAVA-------GEA-G-VPVIQ----AAGSDFNEMY---------VG
+seq0291         GTGKTAIVE-GLANRILRGDV-PDNLK-DKQL-FSL------D----MG---------AL
+seq0413         GTGKTMSVL-AVM-RNLRSEVDAGN-IKP-YCFVEVNG-LKLASPENIY--------RVI
+seq0437         GVGKTAIIE-GLAQRIFSKDV-PETLI-NCRI-IEL------D----MG---------AL
+seq0456         GVGKTAIAE-GLAKRIVDEQV-PDLLA-DSVV-YSL------D----LG---------AL
+seq0539         GTGKTTV----AMRMA-QIL----HQL-GYVRRGHL-VAVTRDDLVGQY---------IG
+seq0549         GTGKTL-----LAKAVA-------KES-G-ATVLE----ISGAEVNDMY---------VG
+seq0767         GVGKTAIVE-GLAQRIVNGEV-PEGIK-NKRV-LSL------D----MG---------AL
+seq0785         GTGKTL-----LAKAVA-------GEA-E-VPFFS----VSGSSFIEMF---------VG
+seq0870         GTGKTL-----LAKAVA-------NQT-S-ATFLR----VVGSEL-IQ------------
+seq1000         GCGKTM-----LAKALA-------HES-G-ACFINLHI----STLTE-------------
+seq0003         GVGKTE-----IARRLA-------KLA-N-APFIK----VEATKFTEVGYVGK-EVDSII
+seq0019         GSGKTA-----LAARMA-------IDS-G-FPFIKL---ISPEDMVGFS-----EMQKV-
+seq0557         KSGLTT-----VAAQMA-------LKT-D-CPFMKY---ISSADLLGLS-----DYEKC-
+seq0580         GMGQIQ-----LANSLL-------YQLED-FP-IFS---IDISTLISDQTSKTIE-E---
+seq0316         GTGKTAQTLLTLSKWIN------TNQH-G----VQLSS-VDSQQLKIGY-----TMINCM
+seq0389         GCGKTR-----LASAVA-------YEL-G-LPLYRWDVRSTTRALDGLY-----EYDAIL
+seq0829         GVGKTE-----IARRLA-------KLA-D-APFIK----IEATKFTEVGYVGR-DVDTIV
+                  *                                                         
+
+seq0001         ------------QAMKKI----FDDAYKSQ------------------------------
+seq0002         AGESE-SN------LRKAF----EEAEKNA------------------------------
+seq0193         V---------GSKRVRQ---L-AKQARDAA------------------------------
+seq0291         IAGAK-YKGEFEERLKSV--V--NEVKKSEG-----------------------------
+seq0413         -YEALTGHRVGWKKALNLL-NERFSDGKK-V-----------------------------
+seq0437         IAGAK-YRGEFEERLKAV--L-G-EIKESSG-----------------------------
+seq0456         LAGTK-YRGDFEKRFKAL--L--NELRKRP------------------------------
+seq0539         HTAP------------KTKEI-L---KKALG-----------------------------
+seq0549         --E-------GEKNVRA---I-FSLAKKLS------------------------------
+seq0767         IAGAK-YRGEFEERLKAV--L--NELAQEEG-----------------------------
+seq0785         VGAA---------RVRD---L-FEQAKKDA------------------------------
+seq0870         ----K-YSGEGPKLVRELFRV----AEENA------------------------------
+seq1000         ----K-WYGDSNKLVAA---L-FSLARKLE------------------------------
+seq0003         -------RDLTDAAVKMVRVQAIEKNRYRAEELAEERILDVLIPPAKNNWGQTEQQQEPS
+seq0019         ------------QQLDKT----FRDAYKSP------------------------------
+seq0557         ------------QRIREV----LEDAYVSR------------------------------
+seq0580         -------------SCIRL----LTEAKKAA------------------------------
+seq0316         IL----------PQIKYI----FQDIYKNL------------------------------
+seq0389         --------RLHDVQTQKVAPLPIDESQTDEDE-DEERL--------NHNPANPKHYRKFG
+seq0829         -------RDLAEMAVKQTRESEMKKVRAKAEDAAEDRLLDVLI-----------------
+                                                                            
+
+seq0001         ------------------------------------------------------------
+seq0002         ------------------------------------------------------------
+seq0193         ------------------------------------------------------------
+seq0291         ---------------------------------------------------------N--
+seq0413         --------------------------------------------------------RKGD
+seq0437         ---------------------------------------------------------E--
+seq0456         ---------------------------------------------------------H--
+seq0539         ------------------------------------------------------------
+seq0549         ------------------------------------------------------------
+seq0767         ---------------------------------------------------------Q--
+seq0785         ------------------------------------------------------------
+seq0870         ------------------------------------------------------------
+seq1000         ------------------------------------------------------------
+seq0003         AARQAFRKKLREGQLDDKEIEKQKARKLKIKDAMKLLIEEEAAKLVNPE-ELKQDAIDAV
+seq0019         ------------------------------------------------------------
+seq0557         ------------------------------------------------------------
+seq0580         ------------------------------------------------------------
+seq0316         ------TGK-------------------------------NCSSIINSKTELLNYLTSGD
+seq0389         ALGKAFKLK-------------------------------DC------------------
+seq0829         ------------------------------------------------------------
+                                                                            
+
+seq0001         --LSCVVVDDIERLLDYVP-IGPRFSN--------LVL--------QALLV-L-LKKA--
+seq0002         --PAIIFIDELDAIAPKR---EK-T-H--G--EVERR--I-VSQ-LLTLM--------DG
+seq0193         --PCIVFIDEFDSLGGRR---GRPN-RS-G--EEEV-----------TLNQ-L-LVEMDG
+seq0291         ---IILFIDEIHTL---VG-AGK-S---DGAMDAANIL-K---P----------------
+seq0413         DRPCILLIDELDLLVTRN----------------------------QSVLY-NILDWPT-
+seq0437         ---IILFIDELHLL---VG-TGK-T---DGAMDASNLL-K---P----------------
+seq0456         ---AILFIDEIHTI---IG-AGAAS---GGVMDASNLL-KPM-L----------------
+seq0539         ---GVLFIDEAYYLYRPE--NERDY----GQEAIEI-----------LLQVME-NN----
+seq0549         --PCVVFIDEADAIFAAR---GDTK-RSTSHRE--------------MINQ-F-LREWDG
+seq0767         ---VILFIDELHTM---VG-AGK-G---DGAMDAGNML-K---P----------------
+seq0785         --PSIIFIDEIDAIGKSRA-AGGPM---GGNDERE-----------QTLNQ-L-LAEMDG
+seq0870         --PSIVFIDEIDAIGTK----RYDT-NSGG----E-RE-I------QRTML-ELLTRLDG
+seq1000         --PSIIFIDEIDAVLRSRS-SS-DHEAS-TMVKAELVIKI-L-RRHLNT-----------
+seq0003         EQHGIVFIDEIDKICKRGESSGPDVSR-------------------EGVQRDL-LPLVEG
+seq0019         --LSVIVIDNVEMLVDWVP-IGPRFSN--------SVL--------VALKV-L-LDKQ--
+seq0557         --RSCVIIDDFERVIGYGA-LGKRYSK--------EFL--------QILMA-L-LKKQ--
+seq0580         --PSVIYIPNIDSWIG-NQ-FGN-------------LS--------DILLH-F-LNT---
+seq0316         DQMNIIVLDELDKLITQDQ---------------------------QILFE-L-FSWT--
+seq0389         --PAVVLIDEIDK-------ADLDFPN-------------------DLLTV---LDEPWE
+seq0829         ------------------------------------------------------------
+                                                                            
+
+seq0001         --PP-QGRKL------LIIG-TTSRK-D-VLQ-EM----------EMLNAFSTTIH----
+seq0002         LKQRA---HV------IVMA-ATNRPN--SI-------DPAL---RRFGRFDR--EV---
+seq0193         MAGS-E--GV------VWMA-ATNRE-D-M----L---DPAVRRP---GRFDRVVE----
+seq0291         ---ALARGEL------RSIG-ATTL--D-EYQ-KYFEKDKAL--ERRFQ----IVQ----
+seq0413         -KPH-SKL--------IVIGIA-NT-MD-LPE-KLL---PRISS--RMG----IQR----
+seq0437         ---MLARGEL------HCIG-ATTL--D-EYR-KYIEKDAAF--ARRFQ-P---VY----
+seq0456         -----SSGEI------RCIG-STTF--Q-EFR-GIFEKDRAL--ARRFQ----KV-----
+seq0539         ------RDDL------VVIL-AGYK--D-RMD-RFFESNPGMSSR--VA-HH--V-----
+seq0549         MN-D-LS--A------FIMV-ATNRPFD------L---DEAVL--RRLP---RRLL----
+seq0767         ---ALARGDL------HCVG-ATTL--D-EYR-QYIEKDAAL--ERRFQ----KVL----
+seq0785         FGTD-T--PV------IILA-ATNRP-E-I----L---DPALLRP---GRFDRQV-----
+seq0870         FD-S--RGDV------KVIM-ATNRI-D-S----L---DTALIRP---GRIDRKIE----
+seq1000         -----------------G------------------------------------------
+seq0003         CTVSTKHGMVKTDH--ILFI-ASGAF-------QIA--KPSDLIPELQGRLPIRVELQAL
+seq0019         --PP-KDRRL------LIFA-TTTER-S-VLT-QL----------DLFSRFDAEIA----
+seq0557         --PP-NRHEL------IIIC-TTNRL-D-VVE-EL----------GLLSFFTSVHN----
+seq0580         --ID-SNQSI------YLIS-TLES--SNR-EISL----------PIEQLFSTKFE----
+seq0316         --IQ-PNSKI------ILIG-ISNSL-D-MID-RL-------------------------
+seq0389         FKIKETGETIRANHKPIVII-TSNKEKG--------------------------------
+seq0829         ------------------------------------------------------------
+                                                                            
+
+seq0001         ----------VPNIATGEQLLEALELLG---NFKDKERTTIAQQVKGKKVW--------I
+seq0002         ---------DIGIPDATGRL-EIL-----QI-HTKNM--KLADDVDLEQVA--NETHGHV
+seq0193         ----------VSL-----------------------------------------------
+seq0291         ----------V-D-----------------------------------------------
+seq0413         ------------L-----------------------------------------------
+seq0437         ----------V-S-----------------------------------------------
+seq0456         ---------DVVE-----------------------------------------------
+seq0539         ---------DFPD-----------------------------------------------
+seq0549         ----------VDL-----------------------------------------------
+seq0767         ----------V-D-----------------------------------------------
+seq0785         ---------LVDK-----------------------------------------------
+seq0870         ----------FPL-----------------------------------------------
+seq1000         ------------------------------------------------------------
+seq0003         TTSDFERILTEPNASITVQYKALMATEGVNIEFTDSGIKRIA-----EAAWQVNESTENI
+seq0019         ----------VPN-----------------------------------------------
+seq0557         ----------VPN-----------------------------------------------
+seq0580         ----------IPS-----------------------------------------------
+seq0316         ----------LPRLKING------------------------------------------
+seq0389         ---------NLPA------------------PFLRR------------------------
+seq0829         ------------------------------------------------------------
+                                                                            
+
+seq0001         GIKKLLMLIEMSL---------------QMDPEYRVRKFLALLREEGASPLD-
+seq0002         GADLAALCSEAALQAIRKKMDLIDLEDETIDAE--VMNSLAVTMDDFRWALSQ
+seq0193         -----------------------------------------------------
+seq0291         -----------------------------------------------------
+seq0413         -----------------------------------------------------
+seq0437         -----------------------------------------------------
+seq0456         -----------------------------------------------------
+seq0539         -----------------------------------------------------
+seq0549         -----------------------------------------------------
+seq0767         -----------------------------------------------------
+seq0785         -----------------------------------------------------
+seq0870         -----------------------------------------------------
+seq1000         -----------------------------------------------------
+seq0003         GARRLHTVLERLMEEISYDASDLSGQNITIDADYVSKHLDALVADEDLSRFIL
+seq0019         -----------------------------------------------------
+seq0557         -----------------------------------------------------
+seq0580         -----------------------------------------------------
+seq0316         -----------------------------------------------------
+seq0389         --------------CLYYYV---------------------------------
+seq0829         -----------------------------------------------------
+                                                                     
