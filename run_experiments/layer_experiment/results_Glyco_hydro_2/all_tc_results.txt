@@ -1,0 +1,17 @@
+layer-all: 4.4	
+layer-1: 4.4	
+layer-2: 4.4	
+layer-3: 4.4	
+layer-4: 2.7	
+layer-5: 1.8	
+layer-6: 3.5	
+layer-7: 4.4	
+layer-8: 4.4	
+layer-9: 4.4	
+layer-10: 3.5	
+layer-11: 1.8	
+layer-12: 6.2	
+layer-13: 5.3	
+layer-14: 4.4	
+layer-15: 3.5	
+layer-16: 0.9	

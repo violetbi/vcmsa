@@ -1,0 +1,6 @@
+build
+dist
+data
+*.egg-info
+prot_t5_xl_half_uniref50-enc
+prot_t5_xl_uniref50

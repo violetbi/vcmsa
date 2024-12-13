@@ -1,0 +1,17 @@
+layer-all: 1.3	
+layer-1: 0.0	
+layer-2: 0.0	
+layer-3: 0.7	
+layer-4: 2.0	
+layer-5: 1.3	
+layer-6: 0.7	
+layer-7: 0.0	
+layer-8: 0.0	
+layer-9: 0.0	
+layer-10: 0.7	
+layer-11: 0.0	
+layer-12: 2.0	
+layer-13: 2.7	
+layer-14: 0.0	
+layer-15: 0.0	
+layer-16: 0.0	

@@ -1,0 +1,17 @@
+layer-all: 86.0	
+layer-1: 81.2	
+layer-2: 85.4	
+layer-3: 87.9	
+layer-4: 84.3	
+layer-5: 83.9	
+layer-6: 88.1	
+layer-7: 83.0	
+layer-8: 78.7	
+layer-9: 76.0	
+layer-10: 73.2	
+layer-11: 67.1	
+layer-12: 62.4	
+layer-13: 57.2	
+layer-14: 50.1	
+layer-15: 35.9	
+layer-16: 14.1	

@@ -163,7 +163,13 @@ def get_seq_groups(seqs, seq_names, embedding_dict, exclude, do_clustering, outf
           seq_i_aa_embeddings = np.take(hidden_states, seq_indices, axis = 0)
           aa_embedding_list.append(seq_i_aa_embeddings)
           #ic(seq_i_aa_embeddings.shape)
-          seq_i_seq_embedding = np.mean(seq_i_aa_embeddings, axis = 0)
+
+          # Pooling method   AA embeddings: (seq_len x embedding_dim)
+
+          # seq_i_seq_embedding = np.mean(seq_i_aa_embeddings, axis = 0)
+          # seq_i_seq_embedding = np.max(seq_i_aa_embeddings, axis = 0)
+          seq_i_seq_embedding = np.min(seq_i_aa_embeddings, axis = 0)
+
           #ic(seq_i_seq_embedding.shape)
           sequence_embedding_list.append(seq_i_seq_embedding)
 
